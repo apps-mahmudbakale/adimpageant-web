@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('public/css/style.css') }}" rel="stylesheet">
     <titile>Adim Pageant | Landing Page</titile>
-    <link rel="shortcut icon" href="{{asset('logo.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{asset('public/logo.png')}}" type="image/png">
     <style>
         /* Smooth scrolling for anchor links */
         html {
@@ -74,10 +74,10 @@
                 <img src="{{asset('phones.png')}}" alt="Hero Image" class="w-full h-auto object-cover mb-8">
                 <div class="flex space-x-4">
                     <a href="#">
-                        <img src="{{asset('google-app-store.png')}}" alt="Download for Android" class="w-40 h-auto">
+                        <img src="{{asset('public/google-app-store.png')}}" alt="Download for Android" class="w-40 h-auto">
                     </a>
                     <a href="#">
-                        <img src="{{asset('app-store.png')}}" alt="Download for iOS" class="w-40 h-auto">
+                        <img src="{{asset('public/app-store.png')}}" alt="Download for iOS" class="w-40 h-auto">
                     </a>
                 </div>
             </div>
