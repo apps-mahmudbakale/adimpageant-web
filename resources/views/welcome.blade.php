@@ -31,7 +31,7 @@
 <div class="relative bg-teal-950">
     <!-- Header -->
     <header class="bg-slate-900 w-full h-24 flex items-center px-8 justify-between">
-        <img class="w-11 h-14" src="{{asset('logo.png')}}" alt="Logo"/>
+        <img class="w-11 h-14" src="{{asset('public/logo.png')}}" alt="Logo"/>
         <nav class="hidden md:flex space-x-8 text-neutral-100 text-base font-bold font-['Inter']">
             <a href="#home" class="hover:underline">HOME</a>
             <a href="#about" class="hover:underline">ABOUT US</a>
@@ -71,7 +71,7 @@
                 </p>
             </div>
             <div class="md:w-1/2 p-8 flex flex-col items-center">
-                <img src="{{asset('phones.png')}}" alt="Hero Image" class="w-full h-auto object-cover mb-8">
+                <img src="{{asset('public/phones.png')}}" alt="Hero Image" class="w-full h-auto object-cover mb-8">
                 <div class="flex space-x-4">
                     <a href="#">
                         <img src="{{asset('public/google-app-store.png')}}" alt="Download for Android" class="w-40 h-auto">
