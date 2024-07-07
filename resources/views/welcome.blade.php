@@ -30,9 +30,11 @@
         .bg-section {
             background: url('{{asset("public/second slide.png")}}') no-repeat center center;
             background-size: cover;
+            min-height: 600px; /* Adjust the height as needed */
             padding: 100px 0;
             color: white;
             text-align: center;
+            margin-bottom: -47px;
         }
     </style>
 </head>
