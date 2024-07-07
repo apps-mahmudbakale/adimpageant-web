@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('public/css/style.css') }}" rel="stylesheet">
-    <titile>Adim Pageant | Landing Page</titile>
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <title>Adim Pageant | Landing Page</title>
     <link rel="shortcut icon" href="{{asset('public/logo.png')}}" type="image/png">
     <style>
         /* Smooth scrolling for anchor links */
@@ -24,6 +24,15 @@
         /* To offset the fixed header height */
         .content-offset {
             padding-top: 96px; /* Adjust this value if the header height changes */
+        }
+
+        /* Background image section */
+        .bg-section {
+            background: url('{{asset("public/second slide.png")}}') no-repeat center center;
+            background-size: cover;
+            padding: 100px 0;
+            color: white;
+            text-align: center;
         }
     </style>
 </head>
@@ -90,6 +99,13 @@
                 Welcome to AdimPageant, your ultimate companion for all things pageantry! Our innovative app is designed to streamline every aspect of your pageant journey...
             </p>
         </section>
+
+        <!-- New Section with Background Image -->
+        <section id="new-section" class="bg-section">
+            <h2 class="text-4xl font-bold">Welcome to the New Section</h2>
+            <p class="mt-4 text-xl">This is a new section added just below the "About Us" section with a background image.</p>
+        </section>
+
         <!-- News Section -->
         <section id="news" class="py-16 bg-neutral-200">
             <div class="container mx-auto px-4">
