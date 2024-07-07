@@ -9,7 +9,7 @@
 
     <title>{{ config('app.name', '') }} | @yield('title')</title>
 
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/style.css') }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{asset('logo.png')}}" type="image/png">
 </head>
 <body class="h-full">
