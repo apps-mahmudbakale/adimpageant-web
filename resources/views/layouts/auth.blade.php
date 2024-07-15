@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', '') }} | @yield('title')</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="{{ asset('public/css/style.css') }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{asset('public/logo.png')}}" type="image/png">
 </head>
